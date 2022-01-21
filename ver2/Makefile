@@ -1,6 +1,6 @@
 CXX = icpc
 COMPFLAGS = -g -std=c++11 -O2 
-OPTFLAGS = -xCORE-AVX512
+OPTFLAGS = -xAVX2
 REPFLAGS = -qopt-report=5 -qopt-report-filter="GSimulation.cpp,130-204" 
 INCLUDES = 
 
